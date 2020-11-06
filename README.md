@@ -16,5 +16,35 @@ Códigos em python para disciplina de sistemas de controle
  
 + Recomendo utilizar a IDE [PyCharm](https://www.jetbrains.com/pt-br/pycharm), com email da UnB é possível obter a versão completa. 
 
-<h2> Trabalho de Siscon </h2>
-G(s) = \frac{2,5}{s^2+2s+5}
+<h2> Trabalho de Siscon  Grupo 7 </h2>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mi>G</mi>
+      <mo stretchy="false">(</mo>
+      <mi>s</mi>
+      <mo stretchy="false">)</mo>
+      <mo>=</mo>
+      <mfrac>
+        <mrow>
+          <mn>2</mn>
+          <mo>,</mo>
+          <mn>5</mn>
+        </mrow>
+        <mrow>
+          <msup>
+            <mi>s</mi>
+            <mn>2</mn>
+          </msup>
+          <mo>+</mo>
+          <mn>2</mn>
+          <mi>s</mi>
+          <mo>+</mo>
+          <mn>5</mn>
+        </mrow>
+      </mfrac>
+    </mrow>
+    <annotation encoding="application/x-tex">G(s) = \frac{2,5}{s^2+2s+5}</annotation>
+  </semantics>
+</math>
+
