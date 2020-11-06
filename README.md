@@ -44,7 +44,6 @@ Códigos em python para disciplina de sistemas de controle
         </mrow>
       </mfrac>
     </mrow>
-    <annotation encoding="application/x-tex">G(s) = \frac{2,5}{s^2+2s+5}</annotation>
   </semantics>
 </math>
 
