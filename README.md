@@ -18,5 +18,9 @@ Códigos em python para disciplina de sistemas de controle
 
 <h2> Trabalho de Siscon  Grupo 7 </h2>
 
+Considere um sistema cuja função de transferência é dada por G(s). Projete um compensador (avanço de fase, atraso de fase ou avanço e atraso de fase) por meio do método do LGR de forma que o sistema compensado em malha fechada produza uma resposta que atenda aos requisitos de transitório e regime permanente especificados.
+
+<img></img>
+
 
 
