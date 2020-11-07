@@ -18,4 +18,4 @@ w, mag, phase = ctl.bode(G_s)
 # wp ( float ) - Frequência para margem de fase (no cruzamento de ganho, ganho = 1)
 
 gm, pm, wg, wp = ctl.margin(G_s)
-
+#erro na verificação de magens de ganhos e fase do sistema
