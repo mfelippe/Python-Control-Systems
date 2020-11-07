@@ -16,12 +16,5 @@ Códigos em python para disciplina de sistemas de controle
  
 + Recomendo utilizar a IDE [PyCharm](https://www.jetbrains.com/pt-br/pycharm), com email da UnB é possível obter a versão completa. 
 
-<h2> Trabalho de Siscon  Grupo 7 </h2>
-
-![Questão_grupo_7](https://github.com/mfelippe/Python-Control-Systems/blob/main/img/q1.JPG)
-
-Considere um sistema cuja função de transferência é dada por G(s). Projete um compensador (avanço de fase, atraso de fase ou avanço e atraso de fase) por meio do método do LGR de forma que o sistema compensado em malha fechada produza uma resposta que atenda aos requisitos de transitório e regime permanente especificados.
-
-
 
 
