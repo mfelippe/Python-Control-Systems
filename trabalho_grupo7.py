@@ -103,5 +103,5 @@ wn = 4/zeta*1
 print("Wn = ", wn)
 
 #polos dominantes
-s = [zeta*wn + 1j* wn*np.sqrt(1-zeta**2), zeta*wn - 1j*wn*np.sqrt(1-zeta**2)]
+s = [-zeta*wn + 1j* wn*np.sqrt(1-zeta**2), -zeta*wn - 1j*wn*np.sqrt(1-zeta**2)]
 print("polos dominantes",s)
