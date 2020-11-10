@@ -27,6 +27,10 @@ print("polos: ",ctl.pole(G_s))
 print("zeros: ",ctl.zero(G_s))
 ctl.pzmap(G_s,title="Polos e zero da função de transferencia não compensada")
 plt.show()
+#wn (array) – frequencia natual para cada polo do sistema
+#zeta (array) – Ganho associado a cada polo do sistema
+#poles (array) – lista polos do sistema
+wn1 , zeta1, poles1 = ctl.damp(G, doprint=True)
 
 #Raizes da função de transferencia não Compensado
 klist, rlist =ctl.rlocus(G_s,Plot=True,PrintGain=True,grid=False)
@@ -72,6 +76,10 @@ print("polos: ",ctl.pole(G))
 print("zeros : ",ctl.zero(G))
 ctl.pzmap(G_s,title="Polos e zero da função de transferencia de Malha Fechada")
 plt.show()
+#wn (array) – frequencia natual para cada polo do sistema
+#zeta (array) – Ganho associado a cada polo do sistema
+#poles (array) – lista polos do sistema
+wn1 , zeta1, poles1 = ctl.damp(G, doprint=True)
 
 #Raizes da função de transferencia de malha fechada
 klist1, rlist =ctl.rlocus(G,Plot=True,PrintGain=True,grid=True)
