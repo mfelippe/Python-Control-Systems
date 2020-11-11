@@ -129,7 +129,8 @@ plt.show()
 #---------------------------------------------------------------
 #novo wn
 zeta = 0.70
-wn = (4 /zeta*1)+0.5
+margem_de_garantia = 0.5
+wn = margem_de_garantia + (4 /zeta*1)
 #ts (tempo de acomodação)
 ts = 4/(zeta*wn)
 print('Ts = ',ts,'s')
